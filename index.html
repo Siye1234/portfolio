@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background: url('IMG-20230313-WA0077.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #00bcd4;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            text-align: left;
+            height: 100vh;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #ccc;
+            margin: 10px 0;
+        }
+
+        .section {
+            margin: 20px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 8px;
+        }
+
+        .section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            font-size: 1rem;
+            color: #ccc;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .section a {
+            text-decoration: none;
+            color: #00bcd4;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .social-icons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #00bcd4;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #fff;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        footer p {
+            margin: 0;
+            color: #777;
+        }
+
+        @media screen and (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .hero {
+                padding: 10px;
+            }
+
+            .hero h2 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .section {
+                margin: 10px;
+                padding: 15px;
+            }
+
+            .section h2 {
+                font-size: 1.5rem;
+            }
+
+            .section p {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            header h1 {
+                font-size: 1.2rem;
+            }
+
+            nav a {
+                font-size: 0.9rem;
+            }
+
+            .hero h2 {
+                font-size: 1.5rem;
+            }
+
+            .hero p {
+                font-size: 0.8rem;
+            }
+
+            .section h2 {
+                font-size: 1.2rem;
+            }
+
+            .section p {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SIYETHEMBA MABASO</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#cont">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>I'm Siyethemba Mabaso, a Software Engineer/Developer</h2>
+        <p>
+            If you need help creating a web application, website, or mobile app, <br><strong>then I'm your guy!</strong>
+        </p>
+    </div>
+
+    <div class="section" id="about">
+        <h2>About Me</h2>
+        <p>
+            <strong>I am an aspiring software engineer looking to continously grow in the feild of tech <br>
+            I am currently doing my second level (Third year) Diploma in Computer Science at <a href="http://www.tut.ac.za" target="_blank" rel="noopener noreferrer">Tshwane University Of Technology</a><br>
+            I am a dedicated person and also a fast learner.
+        </strong>
+        </p>
+        
+    </div>
+
+    <div class="section" id="projects">
+        <h2>My Work</h2>
+        <p>
+            <ul>
+                <li><strong>Worked with an SME called <a href="http://https://siye1234.github.io/vision-projects-and-solutions/" target="_blank" rel="noopener noreferrer">Vision Project and Solutions</a></strong></li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="section" id="cont">
+        <h2>Contact</h2>
+        <p>
+            <strong>Send me an email at <a href="mailto:mabasothobisanii@gmail.com">mabasothobisanii@gmail.com</a> Or <br>
+            WhatsApp me at <a href="tel:+27794231499">+27794231499</a>
+            </strong>
+        </p>
+        
+    </div>
+
+    <div class="section">
+        <h2>Follow Me</h2>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php" target="_blank">Facebook</a>
+            <a href="https://x.com/Siyethemba123" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/mabasosiyethemba/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/thobisanimabaso/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Siye1234" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Siyethemba Mabaso. All rights reserved.</p>
+    </footer>
+</body>
+</html>
